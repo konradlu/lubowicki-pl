@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+.banner{
+    height: 99.9vh;
+    background: url("../images/photo.png"), url("../images/bg20.png");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat, repeat;
+
+}
+
+.banner_text{
+    font-size: 70px;
+    color: white;
+    font-family: Georgia;
+    text-shadow: 0 0 30px rgba(36,134,115,0.7);
+    margin: 0;
+    padding: calc(50vh - 40px);
+
+}
